@@ -12,11 +12,11 @@ Your task is to output the ultimate arrangement of these balls after repeating K
 
 #### Input ####
 Input will be given in the following format from Standard Input:
-N K
-A_1 B_1
-A_2 B_2
-:
-A_N B_N
+- N K
+- A_1 B_1
+- A_2 B_2
+- :
+- A_N B_N
 
 - On the 1st line, integer N(1≦N≦50) represents the number of operations that are included in one set, and integer K(1≦K≦10^9) represents the number of sets. They are separated with a space.
 - On the following N lines, the operations to perform are given. Each line contains two integers Ai, Bi (1≦Ai, Bi≦8, Ai≠Bi) that represent the exchanges to be made. They are separated with a space.
@@ -29,11 +29,11 @@ Do not put any extra space at the end of the output.
 ---
 
 #### Input Example \#1 ####
-4 2 
-1 2
-2 3 
-3 4
-4 1
+- 4 2
+- 1 2
+- 2 3
+- 3 4
+- 4 1
 
 #### Output Example \#1 ####
 1 4 2 3 5 6 7 8
@@ -61,23 +61,23 @@ balls are arranged as 1 4 2 3 5 6 7 8.
 ---
 
 #### Input Example \#2 ####
-16 1000000000 
-1 3
-6 8
-3 5
-2 6
-3 7
-3 4
-4 7
-2 4
-1 3
-2 7
-2 7
-2 4
-6 7
-1 7
-3 4
-1 6
+- 16 1000000000 
+- 1 3
+- 6 8
+- 3 5
+- 2 6
+- 3 7
+- 3 4
+- 4 7
+- 2 4
+- 1 3
+- 2 7
+- 2 7
+- 2 4
+- 6 7
+- 1 7
+- 3 4
+- 1 6
 
 #### Output Example \#2 ####
 1 8 3 4 5 2 7 6
